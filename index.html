@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Saketh Chokkaraju</title>
+<meta name="description" content="Saketh Chokkaraju: AI pipelines, health informatics tools, and geospatial analysis.">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0F1526;--bar:#0A0F1D;--tx:#E6E9F2;--mu:#9AA3B8;--fa:#8A94AD;--ln:#232C45;--ac:#5B94FF;--bt:#2F6BF0;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:inherit}
+html{scroll-behavior:smooth}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.5 'Hanken Grotesk',system-ui,sans-serif;min-height:100vh;display:flex;flex-direction:column}
+a{color:var(--tx);text-decoration:none}a:hover{color:var(--ac)}
+a:focus-visible{outline:2px solid var(--ac);outline-offset:3px;border-radius:4px}
+h1,h2,p{margin:0}
+[hidden]{display:none!important}
+.bar{background:var(--bar);padding:20px 48px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px}
+.brand{font-weight:700;font-size:22px;color:var(--ac)}
+nav{display:flex;gap:32px;font-weight:500;flex-wrap:wrap}
+nav a{padding-bottom:4px;border-bottom:2px solid transparent}
+nav a[aria-current]{border-bottom-color:var(--ac)}
+.wrap{width:100%;max-width:1040px;margin:0 auto;padding:64px 48px 80px;display:flex;flex-direction:column;gap:48px;flex:1}
+.stack{display:flex;flex-direction:column;gap:48px}
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr));gap:64px;align-items:center;margin:auto 0}
+.ht{display:flex;flex-direction:column;gap:20px}
+h1{font-size:clamp(40px,6vw,64px);line-height:1.05;font-weight:700;letter-spacing:-.02em}
+h1 span{color:var(--ac)}
+.hero h2{font-size:28px;font-weight:600}
+.lede{font-size:18px;line-height:1.6;color:var(--mu);max-width:460px}
+.pt{font-size:clamp(34px,5vw,44px);line-height:1.1;font-weight:700;letter-spacing:-.02em}
+.act{display:flex;gap:16px;flex-wrap:wrap;padding-top:8px}
+.btn{display:inline-block;padding:14px 28px;border-radius:999px;font-weight:600;border:1.5px solid var(--bt);background:var(--bt);color:#fff}
+.btn:hover{color:#fff;background:#4A80FF;border-color:#4A80FF}
+.btn.o{background:transparent;color:#9DBDFF}.btn.o:hover{background:var(--bt);color:#fff}
+.pic{width:100%;max-width:400px;aspect-ratio:1;border-radius:50%;object-fit:cover;object-position:42% 50%;justify-self:center;box-shadow:0 0 80px rgba(60,123,255,.18)}
+.lead{display:flex;flex-direction:column;gap:20px;align-items:flex-start}
+.st{font-size:14px;font-weight:600;color:var(--ac);margin-bottom:12px}
+.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(200px,100%),1fr));gap:10px 32px;padding:24px 0;border-top:1px solid var(--ln)}
+.t{font-weight:600;font-size:18px}.d{color:var(--mu)}.g{color:var(--fa)}
+.row a{color:var(--tx)}.row a:hover{color:var(--ac)}
+figure{grid-column:1/-1;margin:8px 0 0}
+figure img{display:block;width:100%;max-width:420px;height:auto;border-radius:12px}
+figcaption{color:var(--fa);font-size:14px;margin-top:8px}
+footer{border-top:1px solid var(--ln);padding-top:32px;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.ic{width:44px;height:44px;border-radius:50%;background:#182036;display:flex;align-items:center;justify-content:center}
+.ic:hover{background:#243256}
+svg{width:20px;height:20px;stroke:var(--tx);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.mail{color:var(--mu);margin-left:8px}
+@media(max-width:600px){.bar{padding:16px 24px}.wrap{padding:40px 24px 56px}nav{gap:20px}}
+</style>
+</head>
+<body>
+<header class="bar">
+<a class="brand" href="#" data-v="home">Saketh</a>
+<nav id="nav" aria-label="Main">
+<a href="#" data-v="home">Home</a>
+<a href="#projects" data-v="projects">Projects</a>
+<a href="#honors" data-v="honors">Honors</a>
+<a href="#resume" data-v="resume">Resume</a>
+<a href="#contact" data-v="contact">Contact</a>
+</nav>
+</header>
+<main class="wrap">
+
+<section id="home" class="hero" data-view>
+<div class="ht">
+<h1>Hi, I’m <span>Saketh</span></h1>
+<h2>Programmer</h2>
+<p class="lede">I build AI pipelines, health informatics tools, and geospatial analysis.</p>
+<div class="act"><a class="btn" href="#projects" data-v="projects">View Projects</a><a class="btn o" href="#resume" data-v="resume">Resume</a></div>
+</div>
+<img class="pic" src="assets/hero-heat-map.jpg" width="932" height="647" alt="Land surface temperature map of the Washington DC region from my Urban Heat Island study, with hotter areas in orange and cooler areas in blue">
+</section>
+
+<section id="projects" class="stack" data-view>
+<h1 class="pt">Projects</h1>
+<div>
+<div class="row"><p class="t"><a href="https://medstack-x86l.onrender.com/">MedStack</a></p><p class="d">Scan a pill bottle and flag drug interactions as green, yellow or red. Severity ratings reflect feedback from VCU’s Division of Geriatric Medicine. Not medical advice.</p><p class="g">Python, Groq Vision, Firecrawl</p></div>
+<div class="row"><p class="t"><a href="https://github.com/Csathvik245/Aetheris-Oncology">Aetheris Oncology</a></p><p class="d">Team project. A multi-agent pipeline that turns a tumor genome into ranked, evidence-backed treatment options, with literature retrieval, trial matching and toxicity checks. Demonstration only, not for clinical use.</p><p class="g">1st Place, BlairHacks</p></div>
+<div class="row"><p class="t"><a href="https://mireye-map.vercel.app/">mireye-map</a></p><p class="d">An interactive map for exploring cited FEMA, USGS and NOAA data across 6 presets, built on Mireye’s API.</p><p class="g">Next.js, TypeScript, Mapbox GL JS</p></div>
+<div class="row"><p class="t">DMV Urban Heat Island</p><p class="d">Landsat 9 imagery, QGIS, Random Forest and Gradient Boosting to map where the DC region runs hot. 30+ maps.</p><p class="g">1st Place, TSA State</p>
+<figure><img src="assets/uhi-map.jpg" width="422" height="397" alt="Map of land surface temperature across the DC region, from dark purple (cool) to light orange (hot)" loading="lazy"><figcaption>Land surface temperature across the region.</figcaption></figure></div>
+<div class="row"><p class="t">FTC Robotics, BioBuzz #31071</p><p class="d">Autonomous and tele-op control code in Java, with AprilTag and OpenCV vision.</p><p class="g">Java, OpenCV</p></div>
+<div class="row"><p class="t">Piezoelectric balloon experiment</p><p class="d">Comparing piezoelectric energy output at altitude for the High Altitude Balloon Challenge.</p><p class="g">Civil Air Patrol</p></div>
+</div>
+</section>
+
+<section id="honors" class="stack" data-view>
+<h1 class="pt">Honors and Awards</h1>
+<div>
+<div class="row"><p class="t">1st Place</p><p class="d">BlairHacks, Best Use of AI</p><p class="g">Aetheris Oncology</p></div>
+<div class="row"><p class="t">1st Place</p><p class="d">TSA Geospatial Technologies</p><p class="g">Geospatial ML analysis of DMV Urban Heat Islands</p></div>
+<div class="row"><p class="t">1st Place</p><p class="d">TSA Technosphere, System Control</p><p class="g">Built and programmed autonomous robotic systems</p></div>
+<div class="row"><p class="t">Best Use of Firecrawl</p><p class="d">TillyHacks</p><p class="g">Drug compatibility web app</p></div>
+<div class="row"><p class="t">Top 10 Finalist</p><p class="d">DesignXR Hackathon</p><p class="g">VR game, top 10 internationally</p></div>
+<div class="row"><p class="t">2nd Place</p><p class="d">Fairfax County Regional Science Fair</p><p class="g">Plant Sciences, plant growth research</p></div>
+<div class="row"><p class="t">3rd Place</p><p class="d">AI Playlab Challenge</p><p class="g">AdmitPath, an AI extracurricular recommendation agent</p></div>
+<div class="row"><p class="t">1st Place, School</p><p class="d">CEMC Pascal Math Contest</p><p class="g">Certification of Distinction, top 20% of contestants</p></div>
+</div>
+</section>
+
+<section id="resume" class="stack" data-view>
+<div class="lead"><h1 class="pt">Resume</h1><a class="btn" href="resume.pdf">Download PDF</a></div>
+<div><p class="st">Experience</p>
+<div class="row"><p class="t">Programmer</p><p class="d">FTC Robotics Team</p><p class="g">2026 to present</p></div>
+<div class="row"><p class="t">Event Team Lead</p><p class="d">TSA, Geospatial Technologies</p><p class="g">2026</p></div>
+<div class="row"><p class="t">Deputy Chief of Staff</p><p class="d">Civil Air Patrol, Research Team</p><p class="g">2026 to present</p></div>
+</div>
+<div><p class="st">Skills</p>
+<div class="row"><p class="t">Languages</p><p class="d">Python, Java, TypeScript, HTML/CSS</p></div>
+<div class="row"><p class="t">Geospatial</p><p class="d">QGIS, GeoPandas, ArcGIS Online</p></div>
+<div class="row"><p class="t">AI</p><p class="d">LLM agents, RAG, MCP, multi-agent systems</p></div>
+</div>
+</section>
+
+<footer id="contact">
+<a class="ic" href="https://github.com/saketh2011" aria-label="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+<a class="ic" href="https://www.linkedin.com/in/saketh-chokkaraju-a8ba703a6/" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+<a class="ic" href="mailto:sakethchokkaraju@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></a>
+<a class="mail" href="mailto:sakethchokkaraju@gmail.com">sakethchokkaraju@gmail.com</a>
+</footer>
+
+</main>
+<script>
+(function () {
+  var views = ['home', 'projects', 'honors', 'resume'];
+  var secs = document.querySelectorAll('[data-view]');
+  var links = document.querySelectorAll('#nav a');
+  function show(v) {
+    secs.forEach(function (s) { s.hidden = s.id !== v; });
+    links.forEach(function (a) {
+      if (a.dataset.v === v) a.setAttribute('aria-current', 'page');
+      else a.removeAttribute('aria-current');
+    });
+    window.scrollTo(0, 0);
+  }
+  function route() {
+    var h = location.hash.slice(1);
+    if (h === 'contact') { document.getElementById('contact').scrollIntoView(); return; }
+    show(views.indexOf(h) > -1 ? h : 'home');
+  }
+  document.querySelectorAll('a[data-v]').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      e.preventDefault();
+      var v = a.dataset.v;
+      if (v === 'contact') { document.getElementById('contact').scrollIntoView(); return; }
+      show(v);
+      try { history.replaceState(null, '', v === 'home' ? location.pathname + location.search : '#' + v); } catch (err) {}
+    });
+  });
+  window.addEventListener('hashchange', route);
+  route();
+})();
+</script>
+</body>
+</html>
